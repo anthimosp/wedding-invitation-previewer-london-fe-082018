@@ -16,4 +16,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.getElementById("Floral").style.display = "none";
     document.getElementById("Pink").style.display = "inline-block";
   });
+  
+  document.getElementById("FloralButton").addEventListener("keypress", function(){
 })
