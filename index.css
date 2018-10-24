@@ -71,6 +71,7 @@ h1 {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 p {
