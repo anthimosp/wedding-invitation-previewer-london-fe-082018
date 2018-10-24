@@ -1,0 +1,72 @@
+#Floral {
+    height: 600px;
+    width: 50%;
+    display: none;
+}
+
+#Rings {
+    height: 600px;
+    width: 50%;
+    display: inline-block;
+}
+
+#Pink {
+    height: 600px;
+    width: 50%;
+    display: none;
+}
+
+#float {
+  position: center;
+  float: right;
+  
+}
+
+#imageandtext {
+  position: center;
+}
+
+img {
+  z-index: -1;
+  position: absolute;
+  float: right;
+}
+
+form {
+  width:100%;
+  text-align: left;
+}
+
+section {
+  width: 50%;
+}
+
+label {
+  display: block;
+  text-align: left;
+  padding-top: 20px;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px;
+}
+
+h1 { 
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
