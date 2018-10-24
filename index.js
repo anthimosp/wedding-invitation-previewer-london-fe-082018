@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.getElementById("Pink").style.display = "none";
   });
   
-    document.getElementById("FloralButton").addEventListener("click", function(){
-    document.getElementById("Rings").style.display = "none";
-    document.getElementById("Floral").style.display = "inline-block";
+    document.getElementById("RingsButton").addEventListener("click", function(){
+    document.getElementById("Rings").style.display = "inline-block";
+    document.getElementById("Floral").style.display = "none";
     document.getElementById("Pink").style.display = "none";
   });
   
-    document.getElementById("FloralButton").addEventListener("click", function(){
+    document.getElementById("PinkButton").addEventListener("click", function(){
     document.getElementById("Rings").style.display = "none";
-    document.getElementById("Floral").style.display = "inline-block";
-    document.getElementById("Pink").style.display = "none";
+    document.getElementById("Floral").style.display = "none";
+    document.getElementById("Pink").style.display = "inline-block";
   });
 })
