@@ -78,6 +78,7 @@ p {
 }
 
 button {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;  
     background-color: #ffd1eb;
     border: none;
     color: black;
