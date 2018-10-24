@@ -17,6 +17,7 @@
 }
 
 #float {
+  margin:auto;
   padding-top: 200px;
   line-height: 50px;
 }
