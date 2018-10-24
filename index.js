@@ -29,7 +29,11 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.getElementById("LastNameFloat").innerHTML = document.getElementById("LastNamePopulate").value ;
   });
   
-    document.getElementById("NamePopulate").addEventListener("keypress", function(e){
-    document.getElementById("FirstNameFloat").innerHTML = document.getElementById("FirstNamePopulate").value ;
+    document.getElementById("DatePopulate").addEventListener("keypress", function(e){
+    document.getElementById("DateFloat").innerHTML = document.getElementById("DatePopulate").value ;
+  });
+  
+    document.getElementById("LocationPopulate").addEventListener("keypress", function(e){
+    document.getElementById("LocationFloat").innerHTML = document.getElementById("LocationPopulate").value ;
   });
 })
