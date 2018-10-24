@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
   });
   
   document.getElementById("FirstNamePopulate").addEventListener("keypress", function(e){
-    document.getElementById("FirstNameFloat").innerHTML = "";
+    document.getElementById("FirstNameFloat").innerHTML = "FirstNameFloat";
   });
 })
