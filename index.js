@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.getElementById("Pink").style.display = "inline-block";
   });
   
-  document.getElementById("").addEventListener("keypress", function(){
+  document.getElementById("FirstNamePopulate").addEventListener("keypress", function(e){
     
   });
 })
