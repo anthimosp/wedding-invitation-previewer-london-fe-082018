@@ -20,4 +20,16 @@ document.addEventListener("DOMContentLoaded", function(e) {
   document.getElementById("FirstNamePopulate").addEventListener("keypress", function(e){
     document.getElementById("FirstNameFloat").innerHTML = document.getElementById("FirstNamePopulate").value ;
   });
+  
+    document.getElementById("SecondNamePopulate").addEventListener("keypress", function(e){
+    document.getElementById("SecondNameFloat").innerHTML = document.getElementById("SecondNamePopulate").value ;
+  });
+  
+    document.getElementById("LastNamePopulate").addEventListener("keypress", function(e){
+    document.getElementById("LastNameFloat").innerHTML = document.getElementById("LastNamePopulate").value ;
+  });
+  
+    document.getElementById("NamePopulate").addEventListener("keypress", function(e){
+    document.getElementById("FirstNameFloat").innerHTML = document.getElementById("FirstNamePopulate").value ;
+  });
 })
